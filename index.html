@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bittu Fitness Club</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
+
+
+<style>
+    /* CSS RESET */
+    body {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('g1.jpg');
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 22px;
+        ;
+        display: inline-block;
+        /* border: 2px solid red; */
+        height: 90px;
+        width: 120px;
+    }
+
+    .left img {
+        width: 120px;
+        height: 90px;
+    }
+
+    .mid {
+        display: block;
+        width: 45%;
+        height: 17;
+        margin: 18px auto;
+        top: 43px auto;
+        /* border: 2px solid rgb(73, 141, 73); */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 33px;
+        display: inline-block;
+        /* border: 2px solid blue; */
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        color: white;
+        font-size: 15px;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+        cursor: pointer;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: gray;
+        text-decoration: underline;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        /* border: 2px solid gray; */
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(128, 128, 128);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 12px;
+        border-radius: 8px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+
+            <img src="b1.webp" alt="">
+            <h5>Bittu Health Club</h5>
+            <!-- left box for logo -->
+
+        </div>
+        <div class="mid">
+
+            <ul class="navbar">
+                <li> <a herf="#" class="active">Home</a></li>
+                <li> <a herf="#">About Us</a></li>
+                <li> <a herf="#">Fitness Calculator</a></li>
+                <li> <a herf="#">Contact Us</a></li>
+            </ul>
+            <!-- mid box for navbar -->
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+            <!-- right box for button -->
+        </div>
+    </header>
+    <div class="container">
+        <h1>join the best gym of kasimpur Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter you name">
+                <input type="text" name="" placeholder="Enter you age">
+                <input type="text" name="" placeholder="Enter you Gender">
+                <input type="text" name="" placeholder="Enter you locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
